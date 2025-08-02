@@ -535,6 +535,56 @@ const BPEPlayground = () => {
           </Card>
         </div>
       </div>
+
+      {/* Credits and Resources Section */}
+      <div className="mt-8 p-6 bg-card rounded-lg border border-border">
+        <h3 className="text-lg font-semibold mb-4 text-foreground">Credits & Resources</h3>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          {/* Credits */}
+          <div>
+            <h4 className="font-medium mb-3 text-muted-foreground">Created by</h4>
+            <div className="space-y-2">
+              <p className="text-sm text-foreground">
+                Inspired by educational content from researchers and practitioners in the field of NLP tokenization.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Implementation based on modern tokenization research and practical applications.
+              </p>
+            </div>
+          </div>
+
+          {/* Interactive Resources */}
+          <div>
+            <h4 className="font-medium mb-3 text-muted-foreground">Interactive Learning</h4>
+            <div className="space-y-3">
+              <a 
+                href="https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/tokenizer_training.ipynb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.9414 4.9757a7.033 7.033 0 0 0-4.9308 2.0324 7.033 7.033 0 0 0-.1232 9.8068 7.033 7.033 0 0 0 9.8068.1232 7.033 7.033 0 0 0 2.0324-4.9308 7.033 7.033 0 0 0-2.0324-4.9308 7.033 7.033 0 0 0-4.8528-2.0008z" />
+                </svg>
+                Tokenizer Training Notebook
+              </a>
+              
+              <a 
+                href="https://colab.research.google.com/github/huggingface/notebooks/blob/master/course/en/chapter6/section5.ipynb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.9414 4.9757a7.033 7.033 0 0 0-4.9308 2.0324 7.033 7.033 0 0 0-.1232 9.8068 7.033 7.033 0 0 0 9.8068.1232 7.033 7.033 0 0 0 2.0324-4.9308 7.033 7.033 0 0 0-2.0324-4.9308 7.033 7.033 0 0 0-4.8528-2.0008z" />
+                </svg>
+                BPE Deep Dive Tutorial
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
