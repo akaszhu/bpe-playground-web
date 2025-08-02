@@ -8,39 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 230 20% 98%;
-    --foreground: 230 15% 15%;
+    /* Main theme colors matching the transformer explorer */
+    --background: 231 58% 96%;
+    --foreground: 222 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 230 15% 15%;
+    --card-foreground: 222 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 230 15% 15%;
+    --popover-foreground: 222 84% 4.9%;
 
-    --primary: 260 100% 65%;
+    /* Primary purple/blue gradient theme */
+    --primary: 245 100% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 260 100% 75%;
+    --primary-light: 245 100% 70%;
+    --primary-dark: 245 100% 50%;
 
-    --secondary: 240 15% 95%;
-    --secondary-foreground: 230 15% 25%;
+    --secondary: 231 58% 96%;
+    --secondary-foreground: 222 84% 4.9%;
 
-    --muted: 240 10% 96%;
-    --muted-foreground: 230 10% 50%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 280 100% 70%;
+    --accent: 270 100% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 20% 90%;
-    --input: 240 20% 96%;
-    --ring: 260 100% 65%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 245 100% 60%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(260 100% 65%), hsl(280 100% 70%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 15% 98%));
-    --shadow-elegant: 0 4px 20px -2px hsl(260 100% 65% / 0.15);
-    --shadow-soft: 0 2px 10px -2px hsl(230 20% 70% / 0.2);
+    /* Special gradients and effects */
+    --gradient-hero: linear-gradient(135deg, hsl(245 100% 60%), hsl(270 100% 65%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(231 58% 98%));
+    --gradient-soft: linear-gradient(180deg, hsl(231 58% 96%), hsl(231 58% 99%));
+    --shadow-elegant: 0 8px 32px -8px hsl(245 100% 60% / 0.2);
+    --shadow-soft: 0 4px 16px -4px hsl(231 58% 80% / 0.3);
+    --shadow-card: 0 2px 8px -2px hsl(231 58% 70% / 0.2);
 
     --radius: 0.5rem;
 
